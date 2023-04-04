@@ -86,7 +86,11 @@ section{
     color: hsl(0, 0%, 100%);
     font-size: 1.2rem;
     line-height: 2rem;
+}
 
+.card-1 .name h2{
+    color: hsl(0, 0%, 100%, 0.5);
+    font-size: 1.2rem;
 }
 
 .card-2 .name h2, .card-4 .name h2{
@@ -101,7 +105,7 @@ section{
     line-height: 2rem;
 }
 
-.card-1 .name h3, .card-2 .name h3, .card-4 .name h3{
+.card-2 .name h3, .card-4 .name h3{
     color: hsl(0, 0%, 100%, 0.5);
     font-size: 1.2rem;
 }
@@ -158,6 +162,10 @@ section{
         grid-template-areas: 
                   "card1 card1 card2 card5"
                   "card3 card4 card4 card5";
+    }
+
+    .bg-pattern-quotation{
+        right: 6.5rem;
     }
 
     .text h3{
